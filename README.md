@@ -24,3 +24,7 @@ parameter  high_green_farm_red =2'b00,
 The state diagram will be
 
 ![state_diaram](https://github.com/N-O-O-B-Coder/State-Machine-based-Controller-For-Traffic-Signal/blob/main/Diagrams/State%20machine.jpeg)
+
+The traffic signal control is modelled using system verilog. Edaplayground was used for simulation and plotting the final waveform.
+
+![waveform](https://github.com/N-O-O-B-Coder/State-Machine-based-Controller-For-Traffic-Signal/blob/main/Diagrams/Waveform.png)
