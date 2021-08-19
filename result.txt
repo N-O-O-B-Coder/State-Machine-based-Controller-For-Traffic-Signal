@@ -1,0 +1,64 @@
+[2021-08-19 11:53:09 EDT] vlib work && vlog '-timescale' '1ns/1ns' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: traffic_tb."
+MESSAGE "$root top modules: traffic_tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done
+# Aldec, Inc. Riviera-PRO version 2020.04.130.7729 built for Linux64 on June 10, 2020.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2020 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 24 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4689 kB (elbread=427 elab2=4127 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: Time=                   0	 reset=1	 sensor=0	 signal in highway=x	 signal in lane=x
+# KERNEL: Time=                   3	 reset=1	 sensor=0	 signal in highway=1	 signal in lane=3
+# KERNEL: Time=                  20	 reset=0	 sensor=0	 signal in highway=1	 signal in lane=3
+# KERNEL: Time=                  50	 reset=0	 sensor=1	 signal in highway=1	 signal in lane=3
+# KERNEL: Time=                  53	 reset=0	 sensor=1	 signal in highway=2	 signal in lane=3
+# KERNEL: Time=                  75	 reset=0	 sensor=1	 signal in highway=3	 signal in lane=1
+# KERNEL: Time=                 150	 reset=0	 sensor=0	 signal in highway=3	 signal in lane=1
+# KERNEL: Time=                 153	 reset=0	 sensor=0	 signal in highway=3	 signal in lane=2
+# KERNEL: Time=                 179	 reset=0	 sensor=0	 signal in highway=1	 signal in lane=3
+# KERNEL: Time=                1350	 reset=0	 sensor=1	 signal in highway=1	 signal in lane=3
+# KERNEL: Time=                1353	 reset=0	 sensor=1	 signal in highway=2	 signal in lane=3
+# KERNEL: Time=                1379	 reset=0	 sensor=1	 signal in highway=3	 signal in lane=1
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (70): $finish called.
+# KERNEL: Time: 40 us,  Iteration: 0,  Instance: /traffic_tb,  Process: @INITIAL#23_1@.
+# KERNEL: stopped at time: 40 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Finding VCD file...
+./dump.vcd
+[2021-08-19 11:53:11 EDT] Opening EPWave...
+Done
